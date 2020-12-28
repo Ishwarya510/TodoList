@@ -8,7 +8,7 @@ function List(props) {
           return(
                 <ul key={item.key} id="lista">
                     <li><span>{item.text}</span>
-                    <button onClick={()=>props.deleteItem(item.key)} className="btn">x</button></li>
+                    <button onClick={()=>props.deleteItem(item.key)} className="btn">X</button></li>
                 </ul>
           )
         })
